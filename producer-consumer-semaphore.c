@@ -1,3 +1,16 @@
+/*
+* Corso di Sistemi Operativi
+* A.A. 2019/20
+* Corso di Laurea in Scienze e Tecnologie Informatiche
+* Universita' della Basilicata
+* 
+* docente: Ing. Domenico Daniele Bloisi, PhD
+*
+* domenico.bloisi@unibas.it
+*
+* producer-consumer-semaphore.c
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <pthread.h>
@@ -7,7 +20,6 @@
 char buffer;
 int quit_program = 0;
 
-pthread_mutex_t mutex;
 sem_t empty;
 sem_t full;
 
@@ -17,6 +29,7 @@ void* produce(void *arg) {
         sem_wait(&empty);
         buffer = 'a' + i;
         printf("producing '%c'\n", buffer);
+        sleep(3);
         sem_post(&full);
     }
     sem_wait(&empty);
@@ -32,6 +45,7 @@ void* consume(void *arg) {
         if(quit_program != 0) {
            return NULL;
         }
+        sleep(1);
         current_char = buffer;
         printf("consuming '%c'\n", current_char);
         sem_post(&empty);
