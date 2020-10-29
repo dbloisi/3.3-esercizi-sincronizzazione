@@ -1,12 +1,14 @@
 /*
 * Corso di Sistemi Operativi
-* A.A. 2019/20
 * Corso di Laurea in Scienze e Tecnologie Informatiche
 * Universita' della Basilicata
 * 
-* docente: Ing. Domenico Daniele Bloisi, PhD
-*
+* docente: Domenico D. Bloisi
 * domenico.bloisi@unibas.it
+*
+* **This code is provided without any warranty about its
+* usability. It is for educational purposes and should
+* be regarded as such.**
 *
 * producer-consumer-race.c
 */
