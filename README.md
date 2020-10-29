@@ -8,3 +8,5 @@ Universita' della Basilicata
 docente: [Domenico D. Bloisi](https://web.unibas.it/bloisi)
 
 domenico.bloisi@unibas.it
+
+**This code is provided without any warranty about its usability. It is for educational purposes and should be regarded as such.**
