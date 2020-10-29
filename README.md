@@ -1,9 +1,10 @@
 # 3.3-esercizi-sincronizzazione
-codice per il corso "Sistemi Operativi"
-A.A. 2019/20
+codice per il corso [Sistemi Operativi](http://web.unibas.it/bloisi/corsi/sistemi-operativi.html)
 
 Corso di Laurea in Scienze e Tecnologie Informatiche
+
 Universita' della Basilicata
 
-docente: Ing. Domenico Daniele Bloisi, PhD
+docente: [Domenico D. Bloisi](https://web.unibas.it/bloisi)
+
 domenico.bloisi@unibas.it
